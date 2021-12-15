@@ -144,6 +144,7 @@ section{
     font-size: 1.8rem;
     margin-bottom: 1rem;
     text-align: left;
+    color: #fff;
 }
 .btn-sml{
     /* display: block; */
@@ -151,4 +152,29 @@ section{
 }
 .tab1-content-inner-text span{
     display: block;
+}
+.tab2-content-top,.tab-content-top{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap:1rem;
+    padding: 1rem;
+    max-width: 80%;
+    margin: auto;
+}
+.tab2-content-bottom-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap:1rem;
+    padding: 1rem;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.txt-md{
+    font-size: 1.2rem;
+    color: #fff;
 }
