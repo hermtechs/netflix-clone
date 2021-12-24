@@ -220,3 +220,22 @@ section:last-of-type{
     color: #555;
     line-height: 1.8;
 }
+/* MAKING THE PAGE RESPONSIVE ON SMALL SCREENS */
+@media(max-width:600px){
+    .container{
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: unset;
+        row-gap:1rem;
+    }
+    .tab{
+        min-width: 250px;
+        margin-bottom: 1rem;
+    }
+
+.tab1-content,.tab2-content-top,.tab-content-top,.tab2-content-bottom-container{
+grid-template-columns:repeat(auto-fit, minmax(200px, 1fr) ) ;
+}
+.hide-sm{
+    display: none;
+}
+}
