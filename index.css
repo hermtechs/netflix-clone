@@ -31,8 +31,8 @@ img{
 }
 .show-case{
     width: 100%;
-    height: 90vh;
-    background: url('images/hero2.jpg'),radial-gradient(rgb(95, 90, 90),#0c0a0a);
+    height: 95vh;
+    background: url('images/hero2.jpg'),radial-gradient(rgb(134, 130, 130),#0c0a0a);
     /* box-shadow: inset 0px 0 10px #0f0; */
     background-size: cover;
     position: relative;
@@ -87,18 +87,24 @@ img{
     font-size: 20px;
     color: #fff;
 }
-.show-case-content .subscribe{
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-grow: grow;
 
+.show-case-content .subscribe{
+    position: absolute;
+    top: 130%;
+    display:flex;
 }
 .show-case-content input{
-    outline: none;
-    width: 100%;
-    height: 40px;
+    padding: 10px 10px 0
+}
+.show-case-content .subscribe a{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+
+
+.show-case-content .subscribe a i{
+    margin-left: .5rem;
 }
 /* tabs section */
 section{
@@ -239,6 +245,25 @@ grid-template-columns:repeat(auto-fit, minmax(200px, 1fr) ) ;
     margin-top: 1rem;
     grid-template-columns: repeat(2, 1fr);
     grid-gap:1rem;
+}
+
+/* subscribe button */
+.show-case-content .subscribe{
+    display: block;
+    text-align: unset;
+
+}
+.show-case-content input{
+    outline: none;
+    width: 100%;
+    height: 41px;
+    padding: .2rem;
+}
+.show-case-content .subscribe a{
+    margin-top: 1rem;
+    padding: .7rem;
+    border-radius: .2rem;
+    font-size: 1rem;
 }
 }
 
