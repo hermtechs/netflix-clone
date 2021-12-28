@@ -46,7 +46,7 @@ img{
     position: relative;
     height: 4rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
 }
 .show-case-top img{
@@ -55,13 +55,16 @@ img{
     cursor: pointer;
 }
 @media(min-width:800px){
-    /* .show-case-top img{
-        
-    } */
     .select-container{
         margin-left: 45rem;
     }
 }
+@media(max-width:400px){
+ .show-case-top-right{
+        display: none;
+    }
+}
+
 .btn{
     display: inline-block;
     background:var(--color-primary);
