@@ -113,6 +113,9 @@ section{
 section:last-of-type{
     border-bottom: none;
 }
+section:nth-last-of-type(3){
+    border-bottom: none;
+}
 .tabs{
     background:var(--dark-color);
     padding: 2rem 2rem 0rem 2rem;
@@ -249,6 +252,7 @@ grid-template-columns:1fr;
 }
 .show-case{
     height: 600px;
+    text-align: center;
 }
 /* subscribe button */
 .show-case-content .subscribe{
