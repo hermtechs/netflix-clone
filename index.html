@@ -12,14 +12,24 @@
    <header class="show-case">
     <div class="show-case-top"> 
         <img src="./images/logo.png" alt="">
-        <a href="#" class="btn btn-rounded">Sign in</a>
+        <div>
+        <div class="select-container">
+          <i class="fas fa-globe"></i>
+        <select name="lang" class="select-lang" id="select">
+          <option value="English">English</option>
+          <option value="Arabic" dir='rtl' lang='ar'> عربى </option>
+        </select>  
+        </div>
+      </div>
+      <a href="#" class="btn btn-rounded">Sign in</a>
+      </div>
     </div>
     <div class="show-case-content">
         <h1 class="txt-xl">Unlimited movies, TV shows, and more.</h1>
         <p>Watch anywhere, Cancel Anytime</p>
         <p>Ready to watch? Enter your email to create or restart your membership. </p>
-        <form class="subscribe" >
-         <input type="email" placeholder='Email address'>   
+        <form class="subscribe">
+         <input type="email" placeholder='Email address' required>   
         <a href="#" class="btn btn-xl">Get Started <i class="fas fa-chevron-right"></i> </a>
         </form>
     </div>

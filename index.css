@@ -54,6 +54,14 @@ img{
     margin-right: 8rem;
     cursor: pointer;
 }
+@media(min-width:800px){
+    /* .show-case-top img{
+        
+    } */
+    .select-container{
+        margin-left: 45rem;
+    }
+}
 .btn{
     display: inline-block;
     background:var(--color-primary);
@@ -66,6 +74,36 @@ img{
 .btn:hover{
     opacity: .9;
 }
+
+.select-container{
+    border: 1px solid rgb(206, 201, 201);
+    padding: .2rem;
+    border-radius: .2em;
+}
+
+.fa-globe{
+    color: #fff;
+    margin-left: .2rem;
+    margin-right: -.5rem;
+}
+ #select{
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: .1em .3em;
+    font-weight: bold;
+    background: transparent;
+}
+#select option{
+    background: rgb(214, 202, 202);
+    padding: 1rem;
+}
+
+#select option:hover{
+    background:#3f1bdd; ;
+}
+
 .btn-xl{
     border-radius: 0px;
     text-align: unset;
@@ -92,19 +130,28 @@ img{
     display:flex;
 }
 .show-case-content input{
-    padding: 10px 10px 0
+    padding: 10px 10px 0;
+    width:20rem;
+    outline:none;
 }
 .show-case-content .subscribe a{
     padding: 1rem;
     font-size: 1.2rem;
+    width: 10.5rem;
 }
+/* If the screen size is 601px wide or more, set the font-size of showcase h1 to 80px */
+@media screen and (min-width: 700px) {
+    h1 {
+      font-size: 40px;
+    }
+  }
 
 .show-case-content .subscribe a i{
     margin-left: .5rem;
 }
 /* tabs section */
 section{
-    border-bottom: 6px solid #3d3d3d;
+    border-bottom: 5px solid #3d3d3d;
 }
 section:last-of-type{
     border-bottom: none;
@@ -226,7 +273,7 @@ section:nth-last-of-type(3){
 .footer{
     max-width: 75%;
     margin: auto;
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 1rem;
 }
 .footer .footer-links-container{
