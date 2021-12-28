@@ -32,7 +32,7 @@ img{
 .show-case{
     width: 100%;
     height: 90vh;
-    background: url('images/hero2.jpg'),radial-gradient(#fff,#0c0a0a);
+    background: url('images/hero2.jpg'),radial-gradient(rgb(95, 90, 90),#0c0a0a);
     /* box-shadow: inset 0px 0 10px #0f0; */
     background-size: cover;
     position: relative;
@@ -228,6 +228,9 @@ grid-template-columns:repeat(auto-fit, minmax(200px, 1fr) ) ;
 }
 .tabs{
     margin-bottom: .2rem;
+}
+.tab-icon{
+    margin-bottom: 1rem;
 }
 .hide-sm{
     display: none;
