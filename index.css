@@ -90,7 +90,7 @@ img{
 
 .show-case-content .subscribe{
     position: absolute;
-    top: 130%;
+    top: 110%;
     display:flex;
 }
 .show-case-content input{
@@ -229,8 +229,9 @@ section:last-of-type{
 }
 /* MAKING THE PAGE RESPONSIVE ON SMALL SCREENS */
 @media(max-width:600px){
-.tab1-content,.tab2-content-top,.tab-content-top,.tab2-content-bottom-container{
-grid-template-columns:repeat(auto-fit, minmax(200px, 1fr) ) ;
+.tab1-content,.tab2-content-top,.tab-content-top,
+.tab2-content-bottom-container{
+grid-template-columns:1fr;
 }
 .tabs{
     margin-bottom: .2rem;
